@@ -1,0 +1,67 @@
+/* course.css */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.course-details {
+  width: 30%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.course-details h2 {
+  margin-bottom: 10px;
+}
+
+.course-links a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.course-links a:hover {
+  color: #555;
+}
+
+.course-content {
+  width: 65%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.course-content h3 {
+  margin-top: 0;
+}
+
+.course-content p {
+  margin-top: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}

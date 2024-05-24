@@ -1,0 +1,33 @@
+
+.attendance-table {
+    margin: 20px;
+  }
+  
+  .attendance-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .attendance-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .attendance-table td {
+    background-color: #fff;
+  }
+  
+  .attendance-table td.present {
+    background-color: #c8e6c9; /* Light green */
+  }
+  
+  .attendance-table td.absent {
+    background-color: #ffcdd2; /* Light red */
+  }
+  
